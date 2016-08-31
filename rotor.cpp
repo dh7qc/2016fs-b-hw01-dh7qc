@@ -81,7 +81,7 @@ char Rotor::decrypt_disk3(char input)
     output = 'I';
     break;
   case 'D':
-    output = 'V';
+    output = 'P'; //was incorrectly 'V' before
     break;
   case 'E':
     output = 'N';
